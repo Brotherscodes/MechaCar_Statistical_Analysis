@@ -64,7 +64,7 @@ The upper management of a company named `AutosRUs` has approached their new empl
 <p align=center>
 <img src=Images/all_lots.png width= 920 height=320>
 
-- **Collectively, all lots returned a p-value of `.06028` and are NOT significantly difference from the population mean**
+- **Collectively, all lots returned a p-value of `.06028` and are NOT significantly different from the population mean**
 
 <p align=center>
 <img src=Images/lot_1.png>
