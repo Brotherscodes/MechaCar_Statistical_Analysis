@@ -21,17 +21,17 @@ The upper management of a company named `AutosRUs` has approached their new empl
 
  
 
-    Q1: Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+`Q1: Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?`
 
-    Q2: Is the slope of the linear model considered to be zero? Why or why not?
+`Q2: Is the slope of the linear model considered to be zero? Why or why not?`
 
-    Q3: Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+`Q3: Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?`
 
--     A1: Each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. Vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the liner model. In other words, they are making a significant impact on mpg. 
+-    `A1: Each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. Vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the liner model. In other words, they are making a significant impact on mpg. `
 
--      A2: Examine the Pr(>|t|) value in the summary below for the (Intercept). The intercept is statistically significant (less than the 0.05) and not zero. This indicates that the intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero.
+-    `A2: Examine the Pr(>|t|) value in the summary below for the (Intercept). The intercept is statistically significant (less than the 0.05) and not zero. This indicates that the intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero.`
 
--      A3: The Multiple R-squared value of (.7149033) and a vary small p-value is indicative that this model does an adequate job of predicting mpg.
+-    `A3: The Multiple R-squared value of (.7149033) and a vary small p-value is indicative that this model does an adequate job of predicting mpg.`
 
 <p align=center>
 <img src=Images/D1_linear_regres.png>
