@@ -27,11 +27,11 @@ The upper management of a company named `AutosRUs` has approached their new empl
 
 `Q3: Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?`
 
--    `A1: Each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. Vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the liner model. In other words, they are making a significant impact on mpg. `
+-    A1: Each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. Vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the liner model. In other words, they are making a significant impact on mpg. 
 
--    `A2: Examine the Pr(>|t|) value in the summary below for the (Intercept). The intercept is statistically significant (less than the 0.05) and not zero. This indicates that the intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero.`
+-    A2: Examine the Pr(>|t|) value in the summary below for the (Intercept). The intercept is statistically significant (less than the 0.05) and not zero. This indicates that the intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero.
 
--    `A3: The Multiple R-squared value of (.7149033) and a vary small p-value is indicative that this model does an adequate job of predicting mpg.`
+-    A3: The Multiple R-squared value of (.7149033) and a vary small p-value is indicative that this model does an adequate job of predicting mpg.
 
 <p align=center>
 <img src=Images/D1_linear_regres.png>
@@ -42,10 +42,10 @@ The upper management of a company named `AutosRUs` has approached their new empl
 
 <br>
 
-    Q1: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+`Q1: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?`
 
--       A1: In total the specifications are met with a variance of 62.29 (less than 100).
-        A2: If we examine by each Lot, Lot 1 & 2 are within specifications; However, Lot 3 has a variance that exceeds the specifications of 100 PSI as outlined in the table below.
+-    A1: In total the specifications are met with a variance of 62.29 (less than 100).
+-    A2: If we examine by each Lot, Lot 1 & 2 are within specifications; However, Lot 3 has a variance that exceeds the specifications of 100 PSI as outlined in the table below.
 <br>
 
 <p align=center>
@@ -57,9 +57,9 @@ The upper management of a company named `AutosRUs` has approached their new empl
 
 <br>
 
-    Run t-tests to determine if the manufacturing lots are statistically different from the population mean of 1500 PSI and evaluate the p-value for significance using a .05 level of significance. 
+`Run t-tests to determine if the manufacturing lots are statistically different from the population mean of 1500 PSI and evaluate the p-value for significance using a .05 level of significance.`
 
-
+<br>
 
 <p align=center>
 <img src=Images/all_lots.png width= 920 height=320>
