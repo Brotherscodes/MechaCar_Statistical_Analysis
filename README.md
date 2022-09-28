@@ -98,7 +98,6 @@ Data from Statistical Analysis: The results from the Statistical test confirmed 
 Using an ANOVA test we can compare the engine displacement and city/highway MPG of MechaCar's design and the competitors. If the p-value is greater than 0.05, then MechaCar has the same or similar performance in the category we are comparing them in. Alternatively, a p-value of 0.05 or lower is generally considered statistically significant. The lower the p-value that is returned, the greater the statistical significance of the observed difference.
 
 
-<br>
 
 ## Summary:
 
