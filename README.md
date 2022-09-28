@@ -85,31 +85,26 @@ The upper management of a company named `AutosRUs` has approached their new empl
 
 ## Study Design: MechaCar vs Competition
 
-4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
+When comparing MechaCar to its competition we should consider using an ANOVA test. An ANOVA test is a type of statistical test used to determine if there is a statistically significant difference between two or more categorical groups by testing for differences of means using variance.
 
-- Horsepower(engine size(cylinders))
+Metric to be tested: Engine displacement (# of cylinders) and the affect on MPG.
 
-<p align=center>
-<img src=Images/.png>
+Hypothesis: The more cylinders a vehicle has the lower MPG it will receive.
 
-<br>
+Statistical Test: A 4 cylinder, a 6 cylinder, and an 8 cylinder car were driven around on 10 gallons of gas in each of their tanks. They all drove the same exact route simultaneously. There was an even mixture of city and highway driving.
 
+Data from Statistical Analysis: The results from the Statistical test confirmed the initial hypothesis. The 4 cylinder vehicle used the least amount of gas while the 8 cylinder used the most gas.
 
-
-#
-
-
-#
-
-
-#
+Using an ANOVA test we can compare the engine displacement and city/highway MPG of MechaCar's design and the competitors. If the p-value is greater than 0.05, then MechaCar has the same or similar performance in the category we are comparing them in. Alternatively, a p-value of 0.05 or lower is generally considered statistically significant. The lower the p-value that is returned, the greater the statistical significance of the observed difference.
 
 
 <br>
 
 ## Summary:
 
-----------------------------------------------------------------------------
+By examining each Pr(>|t|) value which represents the probability that each coefficient contributes a random amount of variance to the linear model we can conclude that Vehicle length and ground clearance are statistically unlikely to provide random amounts of variance to the liner model. In other words, they are making a significant impact on mpg. The Multiple R-squared value of (.7149033) and a vary small p-value is indicative that this model does an adequate job of predicting mpg. Designers will need to consider these variables when continuing to design cars if their focus is based around fuel efficiency. Lot 3 is significantly different from the population mean with a returned p-value of (.04168).
+
+
 
 ## Resources:
 
@@ -117,7 +112,6 @@ The upper management of a company named `AutosRUs` has approached their new empl
 
     - `RStudio`
     - `R`
-    - 
 
 <br>
 
