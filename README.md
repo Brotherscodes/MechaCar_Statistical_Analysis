@@ -64,22 +64,22 @@ The upper management of a company named `AutosRUs` has approached their new empl
 <p align=center>
 <img src=Images/all_lots.png width= 920 height=320>
 
-- **Collectively, all lots returned a p-value of `.06028` and are NOT significantly different from the population mean**
+- **`Collectively, all lots` returned a p-value of `.06028` and are NOT significantly different from the population mean**
 
 <p align=center>
 <img src=Images/lot_1.png>
 
-- **Lot 1 is NOT significantly different from the population mean with a returned p-value of `1`**
+- **`Lot 1` is NOT significantly different from the population mean with a returned p-value of `1`**
 
 <p align=center>
 <img src=Images/lot_2.png>
 
-- **Lot 2 is NOT significantly different from the population mean with a returned p-value of `.6072`**
+- **`Lot 2` is NOT significantly different from the population mean with a returned p-value of `.6072`**
 
 <p align=center>
 <img src=Images/lot_3.png width=910>
 
-- **Lot 3 IS significantly different from the population mean with a returned p-value of `.04168`**
+- **`Lot 3` IS significantly different from the population mean with a returned p-value of `.04168`**
 
 <br>
 
